@@ -38,6 +38,10 @@ createApp({
             if (this.indexActive < 0){
                 this.indexActive = this.slides.length - 1;
             }
+        },
+
+        nextSlide(){
+
         }
     }
   }).mount('#app');
