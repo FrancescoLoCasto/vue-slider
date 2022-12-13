@@ -44,8 +44,7 @@ createApp({
             if (this.indexActive >= this.slides.length){
                 this.indexActive = 0;
             }
-        }
-
+        },
         
     }
   }).mount('#app');
