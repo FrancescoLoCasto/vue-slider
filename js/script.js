@@ -39,10 +39,14 @@ createApp({
                 this.indexActive = this.slides.length - 1;
             }
         },
-
         nextSlide(){
-
+            this.indexActive++;
+            if (this.indexActive >= this.slides.length){
+                this.indexActive = 0;
+            }
         }
+
+        
     }
   }).mount('#app');
 
