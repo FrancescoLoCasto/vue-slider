@@ -33,7 +33,9 @@ createApp({
     },
 
     methods: {
-        
+        previousSlide(){
+            
+        }
     }
   }).mount('#app');
 
