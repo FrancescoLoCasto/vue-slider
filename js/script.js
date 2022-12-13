@@ -1,4 +1,13 @@
-const { createApp } = Vue
+
+
+
+createApp({
+    data() {
+      return {
+        indexActive: 0
+      }
+    }
+  }).mount('#app')
 
 
 slides = [
